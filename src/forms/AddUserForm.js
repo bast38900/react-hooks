@@ -5,7 +5,7 @@ const AddUserForm = (props) => {
   const initialFormState = { id: null, name: "", username: "" };
   const [user, setUser] = useState(initialFormState);
 
-  // Function to uådate the state
+  // Function to update the state
   const handleInputChange = (event) => {
     const { name, value } = event.target;
 
